@@ -16,16 +16,16 @@ import About from './components/About';
 
 function App() {
 
-  const [mode, changemode] = useState('light')
+  const [mode, changemode] = useState('dark')
 
   const modefun = () => {
-    if (mode === 'light') {
-      changemode('dark')
-      document.body.style.backgroundColor = ' #071827 '
+    if (mode === 'dark') {
+      changemode('light')
+      document.body.style.backgroundColor = ' white'
     }
     else {
-      changemode('light')
-      document.body.style.backgroundColor = 'white'
+      changemode('dark')
+      document.body.style.backgroundColor = ' #071827'
     }
   }
 
