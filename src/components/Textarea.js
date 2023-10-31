@@ -81,6 +81,7 @@ const Textarea = (props) => {
                 <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" id='copy' onClick={handleonclickcopytext} >Copy to clipboard</button>
                 <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" id='copy' onClick={handleonclickcopytext} >Copy to clipboard</button>
                 <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" id='copy' onClick={handleonclickcopytext} >Copy to clipboard</button>
+                <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" id='copy' onClick={handleonclickcopytext} >Copy to clipboard</button>
                 {/* <button className="btn btn-primary " onClick={handleonclickmode} >{btn}</button> */}
             </div>
             <div className="container" style={{ color: props.mode === 'light' ? 'black' : 'white' }} >
